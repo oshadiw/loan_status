@@ -22,7 +22,7 @@
 
    The SMOTEENN method first oversamples the minority class using SMOTE and then cleans the resulting data with an undersampling technique. The precision values were once again 0.01 and 1 for high-risk and low-risk. The recall values were 0.72 for high-risk and 0.57 for low-risk. The balanced accuracy score was 0.64. This algorithm has similar results to the over and undersampling methods and is still not the best option.
    
-### Ensemble Classifers
+### Ensemble Classifiers
 
    Lastly, two ensemble classifiers were used to predict loan risk- the Balanced Random Forest (BRF) and Easy Ensemble Classifers. These models performed better than the previous ones. For the BRF Classifier, the precision scores were 0.03 for high-risk and 1 for low-risk. The recall scores were 0.7 for high-risk and 0.87 for low-risk. The balanced accuracy score was 0.79. For the Easy Ensemble Classifier, the precision scores were 0.05 for high-risk and 1 for low-risk. The recall scores were 0.93 for high-risk and 0.9 for low-risk. The balanced accuracy score was 0.92.
    
